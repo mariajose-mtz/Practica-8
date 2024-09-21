@@ -1,0 +1,115 @@
+/* Reset y configuración básica */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #f7d4d4;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #cbb3cd;
+}
+
+#logo img {
+    width: 280px;
+    height: auto;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: rgb(173, 137, 188);
+}
+
+#menu ul li {
+    margin-right: 20px;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: bisque;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#menu ul li a:hover {
+    background-color: #cbb3cd;
+    color: white;
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+    margin: 40px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #6A4C93; /* Color principal */
+    margin-bottom: 40px;
+}
+
+.drink-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.drink-section h2 {
+    font-size: 2rem;
+    color: #6A4C93;
+    margin-bottom: 20px;
+}
+
+.drink-section img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.drink-section p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+footer.PiePagina {
+    width: 100%;
+    background-color: #cbb3cd;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.PiePagina p {
+    font-size: 14px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .drink-section img {
+        width: 90%;
+    }
+}
